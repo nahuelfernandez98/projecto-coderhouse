@@ -1,0 +1,2 @@
+# PROJECTO INMOBILIARIA #
+El projecto se basa en el negocio de unos amigos que estan emprendiendo en la compra y venta de inmuebles, el fin del projecto es que ellos obtengan su pagina web y que a mi me ayude para la crecion y la practica de la misma.
