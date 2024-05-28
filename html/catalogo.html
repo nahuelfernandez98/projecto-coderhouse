@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Propiedades RF | Catalogo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
 </head>
         
 <body>
-    <body style="background-color: rgb(183, 179, 179)">
-    <header> 
-        <img src="/assets/logo-inmobiliaria.png"width=150 alt="logo">
-            <ul>
+    <header>
+        <img class="header-1"  src="/assets/logo-inmobiliaria.png" width="130" alt="logo inmobiliaria">
+            <ul class="header-2">
          
             </nav>
-            <h2>Tu sueño, nuestra prioridad</h2>
+            
                 <a href="catalogo.html">Catálogo</a>
 
                 <a href="contaco.html">Contacto</a>
@@ -24,34 +24,116 @@
                 <a href="vender.html">Vender</a>
 
                 <a href="alquilar.html">Alquilar</a>
-        </nav>
-                <h1>Propiedades RF</h1>
- 
                 
-            </ul> 
+        </nav>
+                </ul> 
+                <div class="header-3"><img src="/assets/menu-hamburguesa.png" alt="menu"></div>
          </header>
-        <section> 
-            <h2>Propiedades disponibles</h2>
-            <img src="/assets/casa-1.jpeg"width=300 alt="casa 1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos officiis voluptas aliquid earum quibusdam sint eaque neque blanditiis, repellat sapiente!</p>
-            <img src="/assets/casa-2.jpeg" width="300" alt="casa 2"> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro nobis adipisci obcaecati officiis ad, deserunt odit. Vel hic tempore unde.</p>
-            <img src="/assets/casa-3.jpeg" width=300 alt="casa 3"> 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita fugit consequuntur, accusamus veniam exercitationem similique! Error, maiores. Cumque, ipsa fugit.</p>
-            <img src="/assets/casa-4.webp" width="300" alt="casa 4"> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, unde laboriosam voluptate nobis numquam sed mollitia magni quis consequuntur id?</p>
+         <h1>Propiedades RF</h1>
+         <h2>Tu sueño, nuestra prioridad</h2>
+         <h3 class="Propiedades-disponibles">Propiedades disponibles</h3>
+        
+         <section class="grid-container">
+            <div class="grid-item item-1"><div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/casa-1.jpg" class="d-block w-100" alt="casa-1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/casa-1a.jpg" class="d-block w-100" alt="casa-1A">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/casa-1b.jpg" class="d-block w-100" alt="casa-1B">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> 
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut veritatis labore placeat sequi voluptatem optio modi, consequatur id nulla culpa quas laboriosam laudantium, illum saepe omnis atque ad asperiores sint.</p></div>
+
+              <!-- la idea era hacer 4 crousel pero no esta en los videos como hacerlo -->
+
+            <div class="grid-item item-2"><div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/casa-2.jpg" class="d-block w-100" alt="casa-2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/casa-2a.jpg" class="d-block w-100" alt="casa-2A">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/casa-2b.JPG" class="d-block w-100" alt="casa-2B">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eos dolor natus veritatis ipsa, voluptatibus illum eveniet, consequuntur impedit rem beatae animi quasi nesciunt consectetur explicabo ad. Magnam, culpa eligendi.</p></div>
+
+            <div class="grid-item item-3"><div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/casa-3.jpg" class="d-block w-90" alt="casa-3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla explicabo enim facere, culpa, praesentium fuga, vel soluta ut harum consequatur eius eveniet ea corporis ex quibusdam a fugiat officia minus!</div>
+
+            <div class="grid-item item-4"><div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/casa-4.jpg" class="d-block w-100" alt="casa-3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/casa-4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda quo nesciunt officiis, maiores aspernatur voluptates fugit recusandae itaque alias quos ad dolorem, mollitia ea pariatur enim id, consequatur dolorum labore!</div>
         </section>
    
 <body>
-    <main>
     
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sunt veniam nobis accusamus illum repellendus fuga odit neque distinctio adipisci? Totam animi enim voluptatem deserunt fuga quasi placeat facilis sint?</main>
-        
-       
 
-    
-   
-   
-    
         <footer><a href="../index.html" id="volver-al-inicio">Volver al inicio</a></footer>
 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 
 </html>
