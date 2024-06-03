@@ -38,8 +38,7 @@ font-size: x-large; text-wrap: balance;}
 
 header{ 
     border-bottom: 1px solid black; 
-    display: grid;  
-    repeat:(4 1fr);
+    display: grid;
     background-color:#B8986F9A;
     font-family: Arial, Helvetica, sans-serif;
     row-gap: 10px;
@@ -47,6 +46,8 @@ header{
     margin-bottom: 5px;
     border-radius: 20px; 
     padding: 10px;
+    
+    
     }
 
 .header-1{
@@ -59,11 +60,13 @@ header{
      margin-left: auto;
      margin-right: auto; 
      margin-bottom: auto;
-     ;}
+     }
+.header-2 a{ display: none;}
  .header-2 a:hover{ 
-     margin: 10px; 
-     transition: 1s;
-     color:rgb(201, 198, 198);}
+     margin: 5px; 
+     transition:1s;
+     color:rgb(201, 198, 198);
+    }
  .header-3{
      text-align:right;
       padding: 60px; 
@@ -78,19 +81,29 @@ main{
     flex-direction: column;
 }
 .img-2{ 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
+   width: 75vw;
+   max-width: 1000px;
+   min-width: 320px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  
 }
 main h1 { 
     font-family:Arial, Helvetica, sans-serif;}
 main h2{ 
     font-family:Arial, Helvetica, sans-serif;}
 main .seccion-1{
-    margin: 20px;
+    margin: 30px 0px;
     justify-content: center;
-    list-style-type:none;}
+    list-style-type:none;
+    border-bottom: 2px solid gray;
+}
+main .seccion-1 p{ 
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
  
 main h2{ 
@@ -182,3 +195,12 @@ grid-row: 1/2; text-align: center;border-radius: 10px;padding: 20px;}
     font-weight: bolder;
     justify-content: center;
 }
+@media only screen and (min-width: 768px){
+    .header-2 a {display: block;}
+  }
+
+  .header-2{
+    display: flex; 
+   gap: 5px; }
+
+   

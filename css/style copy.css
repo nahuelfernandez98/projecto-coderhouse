@@ -38,8 +38,7 @@ font-size: x-large; text-wrap: balance;}
 
 header{ 
     border-bottom: 1px solid black; 
-    display: grid;  
-    repeat:(4 1fr);
+    display: grid;
     background-color:#B8986F9A;
     font-family: Arial, Helvetica, sans-serif;
     row-gap: 10px;
