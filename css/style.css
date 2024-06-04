@@ -70,7 +70,8 @@ header{
  .header-3{
      text-align:right;
       padding: 60px; 
-      grid-column: 4/5;}
+      grid-column: 4/5;
+    display: none;}
  nav{ 
     margin: 5px;}
 main{ 
@@ -87,6 +88,7 @@ main{
    display: block;
    margin-left: auto;
    margin-right: auto;
+   border-radius: 20px;
   
 }
 main h1 { 
@@ -142,6 +144,7 @@ main h2{
 .h3
 { border-radius: 2px;
     justify-content:  center;}
+
  body .Especialidades{ 
     display:flex;
     justify-content: center;
@@ -159,25 +162,45 @@ body div ul{
 
 
 .logo-final{ margin:30px;}
-body footer ul{ justify-content: center; text-align: center;}
 
-.grid-container{display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2,1fr); background-color: rgb(183, 179, 179);
-font-family: Arial, Helvetica, sans-serif;
-row-gap: 20px;
-column-gap: 20px;}
+body footer ul{ 
+    justify-content: center; 
+    text-align: center;}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr); background-color: rgb(183, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    row-gap: 20px;
+    column-gap: 20px;}
 
 .item-1{ background-color: #B8986F9A;
-    grid-column: 1/2; grid-row: 1/2;
-    text-align: center; font-weight:bolder;
-    border-radius: 10px;padding: 20px;
+    grid-column: 1/2; 
+    grid-row: 1/2;
+    text-align: center; 
+    font-weight:bolder;
+    border-radius: 10px;
+    padding: 20px;
 }
+
 .item-2{ background-color: #B8986F9A;font-weight: bolder; grid-column: 2/3;
 grid-row: 1/2; text-align: center;border-radius: 10px;padding: 20px;}
 
-.item-3{background-color: #B8986F9A;font-weight: bolder; grid-column: 1/2; grid-row: 2/3; text-align: center;border-radius: 10px;padding: 20px;}
-.item-4{background-color: #B8986F9A;font-weight: bolder;  grid-column: 2/3; grid-row: 2/3; text-align: center;border-radius: 10px;padding: 20px;}
+.item-3{background-color: #B8986F9A;font-weight: bolder; 
+    grid-column: 1/2; 
+    grid-row: 2/3; 
+    text-align: center;
+    border-radius: 10px;padding: 20px;}
+
+.item-4{background-color: #B8986F9A;font-weight: bolder; 
+    grid-column: 2/3; 
+    grid-row: 2/3; 
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;}
+.grid-item img{border-radius: 20px;}
+
 .Propiedades-disponibles{ color: white; }
 
 .foto-perfil{ display:block;
@@ -202,5 +225,8 @@ grid-row: 1/2; text-align: center;border-radius: 10px;padding: 20px;}
   .header-2{
     display: flex; 
    gap: 5px; }
+
+@media only screen and(max width 769px)  { 
+    .header-3 {display: block;} } 
 
    
